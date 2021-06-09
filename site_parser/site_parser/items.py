@@ -7,6 +7,7 @@ import scrapy
 
 
 class SiteParserItem(scrapy.Item):
-    # define the fields for your item here like:
-    # name = scrapy.Field()
-    pass
+    url = scrapy.Field()
+    title = scrapy.Field()
+    text = scrapy.Field()
+    date = scrapy.Field()
